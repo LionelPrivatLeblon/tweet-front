@@ -1,0 +1,45 @@
+.container {
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 100vh;
+}
+
+.col1 {
+  background-color: rgb(15, 20, 25);
+  width: 30%;
+  border-right: 1px solid rgb(53, 53, 53);
+  padding: 10px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.col2 {
+  background-color: rgb(15, 20, 25);
+  width: 40%;
+  color: #fff;
+}
+.col2 > div {
+  padding: 10px;
+}
+.col3 {
+  border-left: 1px solid rgb(53, 53, 53);
+  background-color: rgb(15, 20, 25);
+  width: 30%;
+  padding: 10px;
+  color: #fff;
+}
+.btchamp {
+  border-radius: 10px;
+  width: 80%;
+  padding: 6px;
+  background-color: #fff;
+  margin: 20px 0;
+}
+.col2top {
+  border-bottom: 1px solid rgb(53, 53, 53);
+}
+.col2middle {
+}

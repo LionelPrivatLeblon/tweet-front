@@ -1,0 +1,79 @@
+.container {
+  background-color: rgb(15, 20, 25);
+  border: solid white 1px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: center;
+  height: 200px;
+  width: 600px;
+}
+.userInfo {
+  margin: 10px;
+  align-items: last baseline;
+}
+.username {
+  color: white;
+  font-family: Verdana, sans-serif;
+  margin: 5px;
+  padding: 5px;
+}
+.userIcon {
+  height: 40px;
+  margin: 5px;
+  padding: 5px;
+}
+.forname {
+  font-family: Verdana, sans-serif;
+  margin: 5px;
+  padding: 5px;
+  font-weight: lighter;
+  color: white;
+}
+
+.tweetContain {
+  font-family: Verdana, sans-serif;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  padding: 10px;
+  margin: 10px;
+}
+.userInfo {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+.likeCount {
+  color: white;
+  margin: 5px;
+}
+.userIcon {
+  display: flex;
+  color: white;
+}
+.liketrash {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin: 5px;
+  padding: 5px;
+}
+.hashtag {
+  font-family: Verdana, sans-serif;
+  font: bold;
+  color: blue;
+}
+.time {
+  color: white;
+}
+.tweety {
+  font-family: Verdana, sans-serif;
+  padding: 50px;
+}
+.trashIcon {
+  padding: 5px;
+  margin: 5px;
+  color: white;
+}
